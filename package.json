@@ -1,0 +1,39 @@
+{
+  "name": "react-discussion-board",
+  "version": "1.0.0",
+  "description": "Discussion board for creating forums in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeforest/react-discussion-board.git"
+  },
+  "keywords": [
+    "react",
+    "forum",
+    "discussion",
+    "message",
+    "board"
+  ],
+  "author": "Michaela DeForest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdeforest/react-discussion-board/issues"
+  },
+  "homepage": "https://github.com/mdeforest/react-discussion-board#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
