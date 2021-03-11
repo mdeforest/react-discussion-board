@@ -1,5 +1,3 @@
-import "./App.css";
-
 import DiscussionBoard from "react-discussion-board";
 
 function App() {
