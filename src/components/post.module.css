@@ -1,0 +1,15 @@
+.profile {
+  height: 75px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.dateTime {
+  font-weight: bold;
+}
+
+.text p {
+  margin-bottom: 0;
+}
