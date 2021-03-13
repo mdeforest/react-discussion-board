@@ -2,9 +2,9 @@
   "name": "react-discussion-board",
   "version": "1.0.0",
   "description": "Discussion board for creating forums in React",
-  "author": "",
+  "author": "Michaela DeForest <michaela.deforest@gmail.com>",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/mdeforest/react-discussion-board.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -20,7 +20,8 @@
     "test:lint": "eslint .",
     "test:unit": "CI=1 react-scripts test --env=jsdom --testResultsProcessor=jest-junit",
     "test:watch": "react-scripts test --env=jsdom",
-    "docs": "rdr src/ --readmeFile ./README.md"
+    "docs": "rdr src/ --readmeFile ./README.md",
+    "postversion": "git push && git push --tags"
   },
   "peerDependencies": {
     "react": "^17.0.1",
