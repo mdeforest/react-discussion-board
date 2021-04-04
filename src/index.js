@@ -28,7 +28,7 @@ const DiscussionBoard = ({ onSubmit, posts }) => {
   useEffect(() => {
     setPageCount(Math.ceil(posts.length / perPage))
 
-    if (pagePosts.length < posts.length && pagePosts.length !== 0) {
+    if (posts.length % perPage !== 0 && posts.length > perPage) {
       setPagePosts(
         posts.slice(
           posts.length - (posts.length % perPage) - 1,
@@ -37,6 +37,9 @@ const DiscussionBoard = ({ onSubmit, posts }) => {
       )
 
       setCurrentPage(pageCount - 1)
+    } else if (posts.length % perPage === 0 && posts.length > perPage) {
+      setPagePosts(posts.slice(posts.length - perPage, posts.length))
+      setCurrentPage(pageCount)
     } else {
       setPagePosts(posts.slice(0, perPage))
       setCurrentPage(0)
