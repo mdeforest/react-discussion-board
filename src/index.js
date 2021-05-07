@@ -70,7 +70,7 @@ const DiscussionBoard = ({ onSubmit, posts }) => {
       'December'
     ]
     return (
-      months[date.getMonth()] + ' ' + date.getDay() + ', ' + date.getFullYear()
+      months[date.getMonth()] + ' ' + date.getDate() + ', ' + date.getFullYear()
     )
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "react-discussion-board",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Discussion board for creating forums in React",
   "author": "Michaela DeForest <michaela.deforest@gmail.com>",
   "license": "MIT",
