@@ -6,14 +6,6 @@ import ReactPaginate from 'react-paginate'
 import Post from './components/Post'
 import PostEditor from './components/PostEditor'
 
-import 'chart.js'
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'shards-ui/dist/css/shards.min.css'
-
-import './shards-dashboards.1.1.0.min.css'
-import './shards-dashboards.1.1.0.min.js'
-
 import styles from './index.module.css'
 
 const DiscussionBoard = ({ onSubmit, posts }) => {

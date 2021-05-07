@@ -12,7 +12,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle --no-compress --jsx React.createElement --format modern,cjs",
+    "build": "microbundle --jsx React.createElement --format modern,cjs",
     "start": "microbundle watch --no-compress --jsx React.createElement --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
